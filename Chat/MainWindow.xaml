@@ -21,7 +21,35 @@
         </Grid.ColumnDefinitions>
         <Border Grid.ColumnSpan="2" Background="#252525"
                 >
-            
+            <Grid HorizontalAlignment="Stretch">
+                <Label Content="Chat"
+                       Foreground="Gray"
+                       FontWeight="SemiBold"
+                    />
+                <StackPanel HorizontalAlignment="Right"
+                            Orientation="Horizontal"
+                            >
+                    <Button x:Name="TurnApp" Width="20" Height="20"
+                            Content="_"
+                            BorderThickness="0"
+                            Background="Transparent"
+                            Foreground="Gray"
+                            FontWeight="Black"
+                            >
+
+                    </Button>
+                    <Button x:Name="CloseApp" Width="20" Height="20"
+                            Content="✖"
+                            BorderThickness="0"
+                            Background="Transparent"
+                            Foreground="Gray"
+                            FontWeight="SemiBold" Click="CloseApp_Click"
+                            >
+                    </Button>
+                   
+                </StackPanel>
+                
+            </Grid>
         </Border>
     </Grid>
 </Window>

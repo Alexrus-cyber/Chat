@@ -20,7 +20,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Border Grid.ColumnSpan="2" Background="#252525"
-                >
+                Mouse.MouseDown="Border_MouseDown">
             <Grid HorizontalAlignment="Stretch">
                 <Label Content="Chat"
                        Foreground="Gray"
@@ -31,10 +31,12 @@
                             >
                     <Button x:Name="TurnApp" Width="20" Height="20"
                             Content="_"
+                            FontSize="14"
                             BorderThickness="0"
+                            Margin="0,0,0,3"
                             Background="Transparent"
                             Foreground="Gray"
-                            FontWeight="Black"
+                            FontWeight="Black" Click="TurnApp_Click"
                             >
 
                     </Button>

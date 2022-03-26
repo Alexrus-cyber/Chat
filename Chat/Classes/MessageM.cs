@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Chat.Classes
 {
-    class MessageM
+  public  class MessageM
     {
         public string Username { get; set; }
         public string UsernameColor { get; set; }

@@ -38,3 +38,5 @@ D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.
 D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.dll
 D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.pdb
 D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.genruntimeconfig.cache
+D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\Library\ContactCard.baml
+D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\App.baml

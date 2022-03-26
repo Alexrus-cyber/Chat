@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Chat.Classes
 {
-    class ContactM
+    public class ContactM
     {
         public string Username { get; set; }
         public string ImageSource { get; set; }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Chat.Unification;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace Chat
         public MainWindow()
         {
             InitializeComponent();
+          
         }
 
         private void CloseApp_Click(object sender, RoutedEventArgs e)

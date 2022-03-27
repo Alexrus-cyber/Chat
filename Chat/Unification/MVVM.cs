@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Chat.Unification
 {
-    class MVVM
+    class MVVM 
     {
         public ObservableCollection<MessageM> Messages { get; set; }
         public ObservableCollection<ContactM> Contacts { get; set; }
@@ -20,7 +20,7 @@ namespace Chat.Unification
             {
                 Username = "Brad",
                 ImageSource = "https://i.imgur.com/yMWvLXd.png",
-                UsernameColor = "#",
+                UsernameColor = "#408aff",
                 Message = "Test",
                 Time = DateTime.Now,
                 IsNativeOrigin = false,
@@ -34,7 +34,7 @@ namespace Chat.Unification
                 Messages.Add(new MessageM
                 {
                     Username = "Brad",
-                    UsernameColor = "#",
+                    UsernameColor = "#408aff",
                     ImageSource = "https://i.imgur.com/yMWvLXd.png",
                     Message = "Test",
                     Time = DateTime.Now,
@@ -50,7 +50,7 @@ namespace Chat.Unification
                 Messages.Add(new MessageM
                 {
                     Username = "Ban",
-                    UsernameColor = "#",
+                    UsernameColor = "#408aff",
                     ImageSource = "https://i.imgur.com/yMWvLXd.png",
                     Message = "Test",
                     Time = DateTime.Now,
@@ -60,7 +60,7 @@ namespace Chat.Unification
             Messages.Add(new MessageM
             { 
               Username = "Ban",
-              UsernameColor = "#",
+              UsernameColor = "#408aff",
                 ImageSource = "https://i.imgur.com/yMWvLXd.png",
                 Message = "Test",
               Time = DateTime.Now,

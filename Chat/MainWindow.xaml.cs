@@ -1,5 +1,6 @@
 ﻿using Chat.Unification;
 using System;
+using Chat.Classes;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

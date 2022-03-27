@@ -40,3 +40,4 @@ D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.
 D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.genruntimeconfig.cache
 D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\Library\ContactCard.baml
 D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\App.baml
+D:\Users\Алексей\Documents\GitHub\Chat\Chat\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs

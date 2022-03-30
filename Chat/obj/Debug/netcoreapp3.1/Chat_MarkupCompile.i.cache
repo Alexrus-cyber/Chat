@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\tappy\Documents\Chat\Chat\App.xaml
-21551794966
+3-1881586422
 
 8-974233171
 192-1533232326
-Library\ContactCard.xaml;MainWindow.xaml;
+Library\ChatItem.xaml;Library\ContactCard.xaml;MainWindow.xaml;
 
 False
 

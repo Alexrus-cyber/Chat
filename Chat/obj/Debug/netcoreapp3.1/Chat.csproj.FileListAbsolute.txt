@@ -64,3 +64,4 @@ C:\Users\tappy\Documents\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.csproj.CoreCompi
 C:\Users\tappy\Documents\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.dll
 C:\Users\tappy\Documents\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.pdb
 C:\Users\tappy\Documents\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.genruntimeconfig.cache
+C:\Users\tappy\Documents\Chat\Chat\obj\Debug\netcoreapp3.1\Library\ChatItem.baml

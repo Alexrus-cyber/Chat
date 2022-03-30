@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Алексей\\.nuget\\packages\\": {}
+    "C:\\Users\\tappy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Алексей\\Documents\\GitHub\\Chat\\Chat\\Chat.csproj",
+      "projectUniqueName": "C:\\Users\\tappy\\Documents\\Chat\\Chat\\Chat.csproj",
       "projectName": "Chat",
-      "projectPath": "D:\\Users\\Алексей\\Documents\\GitHub\\Chat\\Chat\\Chat.csproj",
-      "packagesPath": "C:\\Users\\Алексей\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Алексей\\Documents\\GitHub\\Chat\\Chat\\obj\\",
+      "projectPath": "C:\\Users\\tappy\\Documents\\Chat\\Chat\\Chat.csproj",
+      "packagesPath": "C:\\Users\\tappy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tappy\\Documents\\Chat\\Chat\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Алексей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tappy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,8 +68,16 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\tappy\\Documents\\Chat\\Chat\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

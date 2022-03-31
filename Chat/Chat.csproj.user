@@ -13,6 +13,9 @@
     <Page Update="Library\ContactCard.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Library\MessageBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

@@ -1,5 +1,5 @@
 ﻿Chat
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\tappy\Documents\Chat\Chat\App.xaml
 4-1770329881
 
-8-974233171
+6-1223295223
 192-1533232326
 Library\ChatItem.xaml;Library\ContactCard.xaml;Library\MessageBox.xaml;MainWindow.xaml;
 

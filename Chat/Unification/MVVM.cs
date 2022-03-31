@@ -1,4 +1,5 @@
 ﻿using Chat.Classes;
+using Chat.Core;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -6,15 +7,48 @@ using System.Text;
 
 namespace Chat.Unification
 {
-    class MVVM 
+    class MVVM : ObservableObject
     {
         public ObservableCollection<MessageM> Messages { get; set; }
         public ObservableCollection<ContactM> Contacts { get; set; }
+
+
+        public RelayCommand SendCommand { get; set; }
+
+        public ContactM _selectedContact;
+
+        public ContactM SelectedContact
+        { 
+            get { return _selectedContact; }
+            set { _selectedContact = value; OnPropertyChanged(); }
+        }
+
+        private string _message;
+
+        public string Message
+        {
+            get { return _message; }
+            set { _message = value;
+                OnPropertyChanged();
+            }
+            
+        }
+
         public MVVM()
         {
             Messages = new ObservableCollection<MessageM>();
             Contacts = new ObservableCollection<ContactM>();
 
+
+            SendCommand = new RelayCommand(o =>
+            {
+                Messages.Add(new MessageM
+                {
+                    Message = Message,
+                    FirstMessage = false
+                });
+                Message = "";
+            });
 
             Messages.Add(new MessageM
             {
@@ -52,17 +86,18 @@ namespace Chat.Unification
                     Username = "Ban",
                     UsernameColor = "#408aff",
                     ImageSource = "https://i.imgur.com/yMWvLXd.png",
-                    Message = "Test",
+                    Message = "Не тест",
                     Time = DateTime.Now,
                     IsNativeOrigin = true,
                          });
             }
+
             Messages.Add(new MessageM
             { 
               Username = "Ban",
               UsernameColor = "#408aff",
-                ImageSource = "https://i.imgur.com/yMWvLXd.png",
-                Message = "Test",
+              ImageSource = "https://i.imgur.com/yMWvLXd.png",
+              Message = "Руддщ",
               Time = DateTime.Now,
               IsNativeOrigin = true,
          
@@ -74,7 +109,7 @@ namespace Chat.Unification
             {
                 Contacts.Add(new ContactM
                 {
-                    Username = $"Alex {i}",
+                    Username = $"Brad {i}",
                     ImageSource = "https://i.imgur.com/yMWvLXd.png",
                     Messages = Messages
                 }) ;

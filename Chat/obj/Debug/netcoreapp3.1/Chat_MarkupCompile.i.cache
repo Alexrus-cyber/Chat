@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\tappy\Desktop\Chat-Alex_Chat\Chat\obj\Debug\netcoreapp3.1\
+C:\Users\tappy\Documents\Chat\Chat\obj\Debug\netcoreapp3.1\
 Chat
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\tappy\Desktop\Chat-Alex_Chat\Chat\App.xaml
+C:\Users\tappy\Documents\Chat\Chat\App.xaml
 4-1770329881
 
-8-974233171
+10-432064379
 192-1533232326
 Library\ChatItem.xaml;Library\ContactCard.xaml;Library\MessageBox.xaml;MainWindow.xaml;
 

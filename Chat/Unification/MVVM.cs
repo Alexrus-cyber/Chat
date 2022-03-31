@@ -97,7 +97,7 @@ namespace Chat.Unification
               Username = "Ban",
               UsernameColor = "#408aff",
               ImageSource = "https://i.imgur.com/yMWvLXd.png",
-              Message = "Руддщ",
+              Message = "Top",
               Time = DateTime.Now,
               IsNativeOrigin = true,
          
